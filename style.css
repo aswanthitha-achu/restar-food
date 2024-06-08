@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 50px;
+}
+
+.section-one__home, .section-one__recipe, .section-one__contact {
+    text-decoration: none;
+    color: #E3BECE;
+}
+
+.section-two, .section-two1, .section-two3, .section-two4 {
+    align-items: center;
+    border: solid black 3px;
+    display: inline-block;
+}
+
+.section-two:hover {
+    background-color: #7ABBCB;
+}
+
+.section-two1:hover {
+    background-color: #7ABBCB;
+}
+
+.section-two3:hover {
+    background-color: #7ABBCB;
+}
+
+.section-two4:hover {
+    background-color: #7ABBCB;
+}
+
+.img1, .img2, .img3, .img4 {
+    width: 250px;
+    height: 330px;
+    justify-content: center;
+
+}
+
+.section-two__food, .section-two1__food, .section-two1__desc, .section-two3__food, .section-two3__desc, .section-two4__food,
+.section-two4__desc {
+    text-align: center;
+}
+
+.section-two__desc, .section-two1__desc {
+    text-align: center;
+    font-weight: lighter;
+}
+
+.order-now1, .order-now2, .order-now3, .order-now4 {
+    background-color: black;
+    color: #E3BECE;
+    border-radius: 1px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.section-two__container {
+    text-align: center;
+    align-items: center;
+}
+
+.section-three__container {
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    margin: 50px;
+    margin-top: 10px;}
+
+.section-three, .section-three__table {
+    align-items: center;
+    text-align: center;
+}
+.section-three__contact {padding-top: 10px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.section-three__input {padding: 10px;}
+.send {margin-top: 10px; padding: 12px; width: 75px; height: 40px; background-color: yellowgreen; font-weight: bold; cursor: pointer;}
